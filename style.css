@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 50px;
+    height: 50px;
+}
+
+.product p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.buy-button {
+    background-color: #28a745;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.add-button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+}
+
+.remove-button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: red;
+}
+
+.plus-button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+}
+
+.quantity {
+    font-weight: bold;
+    margin: 5px;
+    font-size: 18px;
+    color: #ff9800; /* Cor do contador de quantidade */
+}
